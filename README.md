@@ -16,7 +16,9 @@ This experience will give you a solid grasp of greedy algorithms and their pract
 
 Let’s go! 🚵🏻‍♀️
 
-***
+---
+
+## [Solution](./solution.md)
 
 ## Task 1: Comparing Randomized and Deterministic QuickSort
 
@@ -65,7 +67,7 @@ Array size: 500000
    Deterministic QuickSort: 1.4815 seconds
 ```
 
-***
+---
 
 ## Task 2: Class Scheduling with a Greedy Algorithm
 
@@ -93,6 +95,7 @@ And a list of teachers:
 ### Implementation Details
 
 Define a `Teacher` class with the following attributes:
+
 - `first_name`
 - `last_name`
 - `age`
@@ -102,7 +105,6 @@ Define a `Teacher` class with the following attributes:
 - The function should return a list of teachers and the subjects assigned to them.
 - At each step, prioritize the teacher who can cover the largest number of remaining subjects. If multiple candidates qualify, choose the youngest teacher.
 
-
 ### Acceptance Criteria
 
 1. The program successfully assigns teachers to cover all subjects. (20 points)
@@ -110,7 +112,6 @@ Define a `Teacher` class with the following attributes:
 3. All subjects are assigned to teachers, and no teacher is given subjects they are not qualified to teach. (15 points)
 
 ### Template Code
-
 
 ```python
 # Define the Teacher class
