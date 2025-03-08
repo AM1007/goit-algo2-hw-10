@@ -20,7 +20,7 @@ Let’s go! 🚵🏻‍♀️
 
 ## Task 1: Comparing Randomized and Deterministic QuickSort
 
-# Task Description
+### Task Description
 
 1. Implement both randomized and deterministic QuickSort algorithms. Conduct a comparative analysis of their efficiency by measuring the average execution time on arrays of different sizes.
 
